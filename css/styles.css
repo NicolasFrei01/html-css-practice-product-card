@@ -17,5 +17,56 @@ body {
  * Другие стили
  */
 
+.product {
+   margin-bottom: 30px;
+}
 
+.image {
+   margin-bottom: 10px;
+}
 
+.image img {
+   height: 300px;
+   width: 100%;
+   object-fit: cover;
+   border-radius: 7px;
+}
+
+.info h3 {
+   font-size: 21px;
+   margin-bottom: 0;
+}
+
+.rating {
+   margin-bottom: 0;
+   padding-left: 0;
+   list-style-type: none;
+}
+.rating li {
+   display: inline-block;
+   color: #e4a41a;
+}
+
+.info-price {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.price {
+   font-weight: 700;
+   font-size: 18px;
+}
+
+.add-to-card {
+   border: none;
+   height: 40px;
+   width: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #12d512;
+   color: white;
+   border-radius: 10px;
+}
